@@ -11,7 +11,7 @@ const Header = () => {
 
 const Footer = () => {
   return (
-    <footer style={{ background: '#282c34', padding: '10px', color: 'white', textAlign: 'center', position: 'absolute', bottom: '0', width: '100%', font:'caption' }}>
+    <footer style={{ background: '#282c34', padding: '10px', color: 'white', textAlign: 'center', position: 'absolute', bottom: '0', width: '100%', font:'caption',margintop:'20px  ' }}>
       <p>&copy; 2024 Quiz App. Cereated By Zubair Ahmed Kaim Khani.</p>
     </footer>
   );
