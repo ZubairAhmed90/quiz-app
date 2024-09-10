@@ -11,7 +11,7 @@ const Header = () => {
 
 const Footer = () => {
   return (
-    <footer style={{ background: '#282c34', padding: '10px', color: 'white', textAlign: 'center', position: 'absolute', bottom: '0', width: '100%', font:'caption',margintop:'20px  ' }}>
+    <footer style={{ background: '#282c34', padding: '10px', color: 'white', textAlign: 'center', position: 'absolute', bottom: '0', width: '100%', font:'caption',marginTop:'20px' }}>
       <p>&copy; 2024 Quiz App. Cereated By Zubair Ahmed Kaim Khani.</p>
     </footer>
   );
@@ -85,7 +85,7 @@ const App = () => {
           </div>
         ) : (
           questions.length > 0 ? (
-            <div>
+            <div style={{marginBottom:"20px"}}>
               <h2 style={{ fontSize: '32px', marginBottom: '20px' }}>Q{questionIndex + 1}: {questions[questionIndex].question.text}</h2>
               <ul style={{ listStyleType: 'none', padding: 0 }}>
                 {shuffleArray([...questions[questionIndex].incorrectAnswers, questions[questionIndex].correctAnswer])
